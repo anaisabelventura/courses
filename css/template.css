@@ -35,7 +35,7 @@ hr {
 a {
 	text-decoration: none;
 	outline: none;
-	color: #FFCD32;
+	color: #941b0c;
 	-webkit-transition: all .3s ease-in-out;
 	   -moz-transition: all .3s ease-in-out;
 		 -o-transition: all .3s ease-in-out;
@@ -153,7 +153,7 @@ img.img-full-width {
 }
 .nino-btn {
 	display: inline-block;
-	color: #FFF0BE ;
+	color: rgba(148,27,12,1);
 	text-transform: uppercase;
 	padding: 10px 20px;
 	text-align: center;
@@ -164,7 +164,7 @@ img.img-full-width {
 }
 .nino-btn:hover {
 	color: #fff;
-	background: #FFF0BE;
+	background: rgba(148,27,12,1);;
 }
 .bg-white {
 	background-color: #fff !important;
@@ -174,7 +174,7 @@ img.img-full-width {
 	text-align: center;
 }
 .nino-hoverEffect .item {
-	background: #FFF0BE;
+	background: rgba(148,27,12,0.5);
 	display: inline-block;
 }
 .nino-hoverEffect .item .overlay {
@@ -202,9 +202,9 @@ img.img-full-width {
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
 	background: rgba(255,240,190, 0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(255,240,190,0.9), rgba (250,205,50, 0.9));
-	background: -o-linear-gradient(top, rgba(255,240,190,0.9), rgba(250,205,50, 0.9));
-	background: linear-gradient(to bottom, rgba(255,240,190,129,0.9), rgba(250,205,50, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(top, rgba(255,240,190,0.9), rgba(148,27,12,0.9));
+	background: -o-linear-gradient(top, rgba(255,240,190,0.9), rgba(148,27,12,0.9));
+	background: linear-gradient(to bottom, rgba(255,240,190,129,0.9), rgba(148,27,12,0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .nino-hoverEffect .item:hover .overlay {
 	left: -10px;
@@ -236,7 +236,7 @@ img.img-full-width {
 #nino-header {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
-	background: url(../images/banner/springcourses.png) no-repeat center center / cover;
+	background: url(../images/banner/summercourses.png) no-repeat center center / cover;
 }
 #nino-header:after {
 	content: "";
@@ -245,7 +245,7 @@ img.img-full-width {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(250,205,50,0.9,0); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+	background: rgba(148,27,12,0.5); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
 	/*background: -webkit-linear-gradient(top, rgba(247,152,52,0.9), rgba(148,27,12, 0.9));
 	background: -o-linear-gradient(top, rgba(247,152,52,0.9), rgba(148,27,12, 0.9));
 	background: linear-gradient(to bottom, rgba(247,152,52,0.9), rgba(148,27,12, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -376,7 +376,7 @@ img.img-full-width {
 	top: 0;
 	left: 0;
     width: 100%;
-    background: rgba(250,205,50, 0.9);
+    background: rgba(148,27,12,0.9);
     color: #000;
     z-index: 2;
     -webkit-animation-duration: .5s;
@@ -418,7 +418,7 @@ img.img-full-width {
 }
 /* =============== LAYOUT - CONTENT AREA =============== */
 section {
-	padding: 80px 0;
+	padding: 20px 0;
 }
 #nino-slider .nino-sectionHeading {
 	font-size: 60px;
@@ -440,6 +440,16 @@ section {
 	text-align: center;
 	color: #333;
 }
+.nino-Course2020 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #333;
+}
 .nino-sectionHeading:after {
 	content: "";
 	position: absolute;
@@ -447,7 +457,7 @@ section {
 	bottom: 0;
 	width: 50px;
 	height: 2px;
-	background: #e6b41c;
+	background: #941b0c;
 	transform: translateX(-50%);
 }
 .nino-sectionHeading .nino-subHeading {
@@ -518,7 +528,7 @@ section {
 #nino-services .nino-icon {
 	font-size: 30px;
 	margin-right: 20px;
-	color: #FFCD32;
+	color: #941b0c;
 }
 #nino-services .item:not(:nth-last-child(-n+2)) {
 	border-bottom: 1px solid #e5e5e5;
@@ -615,7 +625,7 @@ section {
 	left: 10px;
 	top: 8px;
 	font-size: 30px;
-	color: #FFCD32;
+	color: #941b0c;
 }
 #nino-whatWeDo .panel-title .nino-icon.arrow {
 	left: auto;
@@ -637,7 +647,7 @@ section {
 #nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
 #nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, 
 #nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
-	background: #FFCD32;
+	background: #941b0c;
 }
 #nino-whatWeDo .mCSB_scrollTools .mCSB_draggerRail {
 	background: #f5f5f5;
@@ -669,9 +679,9 @@ section {
 }
 .nino-testimonialSlider .nino-symbol .nino-icon {
 	padding: 16px;
-	border: 2px solid #FFCD32 ;
+	border: 2px solid #941b0c ;
 	font-size: 65px;
-	color: #FFCD32 ;
+	color: #941b0c ;
 }
 .nino-testimonialSlider .quote {
 	font-size: 18px;
@@ -692,7 +702,7 @@ section {
 	top: 50%;
 	width: 40px;
 	height: 2px;
-	background: #FFCD32 ;
+	background: #941b0c ;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 		 -o-transform: translateY(-50%);
@@ -746,9 +756,9 @@ section {
 	height: 100%;
 	text-align: center;
 	background: rgba(255,240,190,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(255,240,190,0.9), rgba(250,205,50, 0.9));
-	background: -o-linear-gradient(top, rgba(255,240,190,0.9), rgba(250,205,50, 0.9));
-	background: linear-gradient(to bottom, rgba(255,240,190,0.9), rgba(250,205,50, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(top, rgba(255,240,190,0.9), rgba(148,27,12,0.9));
+	background: -o-linear-gradient(top, rgba(255,240,190,0.9), rgba(148,27,12,0.9));
+	background: linear-gradient(to bottom, rgba(255,240,190,0.9), rgba(148,27,12,0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #nino-portfolio .nino-portfolioItems li .content {
 	position: absolute;
@@ -827,7 +837,7 @@ section {
 	bottom: 0;
 	width: 50px;
 	height: 2px;
-	background: #FFCD32  ;
+	background: #941b0c;
 }
 /* =============== SECTION LATEST BLOG =============== */
 #nino-latestBlog article .articleThumb {
@@ -836,7 +846,7 @@ section {
 }
 #nino-latestBlog article .date {
 	position: absolute;
-	background: #FFCD32 ;
+	background: #941b0c ;
 	left: -10px;
 	bottom: 10px;
 	padding: 10px 15px;
@@ -874,7 +884,7 @@ section {
 	color: #000;
 }
 #nino-latestBlog article .articleMeta .nino-icon {
-	color: #FFCD32 ;
+	color: #941b0c ;
 	font-size: 17px;
 	position: relative;
 	top: 2px;
@@ -885,7 +895,7 @@ section {
 	background: url(../images/map/bg-map.jpg) no-repeat center center / cover;
 }
 #nino-map .nino-sectionHeading {
-	color: #FFCD32 ;
+	color: #941b0c ;
 	margin: 0;
 	cursor: pointer;
 }
@@ -908,7 +918,7 @@ section {
 	visibility: visible;
 	opacity: 1;
 	height: auto !important;
-	border: 0px solid #ff9c00;
+	border: 0px solid #941b0c;
 }
 #nino-map .nino-locationInfo {
 	width: 250px;
@@ -1074,7 +1084,7 @@ footer .nino-copyright {
 	display: none;
 	cursor: pointer;
 	z-index: 2;
-	background: #FFCD32  url(../images/go-to-top.png) center center no-repeat;
+	background: #941b0c  url(../images/go-to-top.png) center center no-repeat;
 }
 #nino-scrollToTop:hover {
 	text-decoration: none;
@@ -1112,7 +1122,7 @@ div.pp_default .pp_social {
 }
 @media (max-width: 992px) {
 	section {
-		padding: 45px 0;
+		padding: 0px 0;
 	}	
 	/* =============== SECTION TESTIMONIAL =============== */
 	.nino-testimonial {
@@ -1383,7 +1393,7 @@ div.pp_default .pp_social {
 		display: none;
 	}
 	#nino-slider .carousel-indicators li.active .inner {
-		border-color: #FFCD32 ;
+		border-color: #941b0c ;
 	}
 	/* =============== NAV-BAR =============== */
 	.nino-fixed-nav #nino-navbar {
